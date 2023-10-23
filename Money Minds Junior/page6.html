@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head class="headerless">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Minds Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        .headerless {
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Images/backgorundless.jpeg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: #fff;
+        }
+
+        .left-nav {
+            width: 10%;
+            float: left;
+            background-color: #333;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .centered-content {
+            width: 70%;
+            float: left;
+            text-align: center;
+        }
+
+        .right-content {
+            width: 20%;
+            float: right;
+            text-align: center;
+        }
+
+        .thought-bubble1 {
+            background-color: #00ABE4;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        .right-aligned {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .centered-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 1px solid #555;
+        }
+
+        .nav-link:last-child {
+            border: none;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        body {
+            background-color: #123456;
+        }
+
+        /* Minimized state for the left navigation bar */
+        .minimized {
+            width: 60px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .minimized .nav-link {
+            display: none;
+        }
+
+        .minimized #toggleNav {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="headerless">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="lessons.html">LESSONS</a>
+                    </li>
+                    <li>
+                        <a href="certification.html">CERTIFICATION</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="left-nav">
+            <a href="page1.html" class="nav-link">Jenny The Wizard!</a>
+            <a href="page2.html" class="nav-link">Introduction to Money</a>
+            <a href="page3.html" class="nav-link">Introduction to Money Pt.2</a>
+            <a href="page4.html" class="nav-link">Earning Money</a>
+            <a href="page5.html" class="nav-link">Earning Money Pt.2</a>
+            <a href="page6.html" class="nav-link">Saving Money</a>
+            <a href="page7.html" class="nav-link">Needs vs Wants</a>
+            <a href="page8.html" class="nav-link">Budgeting</a>
+            <a href="page9.html" class="nav-link">Budgeting Pt.2</a>
+            <a href="page10.html" class="nav-link">Financial Institutions</a>
+            <a href="page11.html" class="nav-link">Banking Terms</a>
+            <a href="page12.html" class="nav-link">Banking Terms - Types of Accounts</a>
+            <a href="page13.html" class="nav-link">Banking Terms - Withdrawals</a>
+            <a href="page14.html" class="nav-link">Banking Terms - Loans</a>
+            <a href="page15.html" class="nav-link">Banking Terms - Deposits</a>
+            <a href="page16.html" class="nav-link">Banking Terms - Balance sheets</a>
+            <a href="page17.html" class="nav-link">Accessing Your Money</a>
+            <a href="page18.html" class="nav-link">Accessing Your Money - Debit Card</a>
+            <a href="page19.html" class="nav-link">Accessing Your Money - ATM</a>
+            <a href="page20.html" class="nav-link">Accessing Your Money - Credit Card</a>
+            <a href="page21.html" class="nav-link">Interest</a>
+            <a href="page22.html" class="nav-link">Interest - Types</a>
+            <a href="page23.html" class="nav-link">Investing</a>
+            <a href="page24.html" class="nav-link">Investing - Types</a>
+            <a href="page25.html" class="nav-link">Investing - Types Pt.2</a>
+            <a href="page26.html" class="nav-link">Investing - Benefits</a>
+            <a href="page27.html" class="nav-link">Secret Tools</a>
+            <a href="page28.html" class="nav-link">Secret Tools Pt.2</a>
+            <a href="page29.html" class="nav-link">Giving Back</a>
+            <a href="page30.html" class="nav-link">Giving Back Pt.2</a>
+            <a href="page31.html" class="nav-link">Congratulations!</a>
+        </div>
+
+        <div class="centered-content">
+            <h1>Saving Money</h1>
+            <p style="margin-top: 20px;">When you take a portion of your earnings, and instead of spending it now, you put it away to use later to achieve a goal, it is called “Saving”. Saving goals can be short-term or long-term. </p>
+            <p style="margin-top: 20px;">Saving money for things you want to buy soon, like in a few weeks or months, is called saving for a short-term goal.</p>
+            <p style="margin-top: 20px;">Saving money for things that are far away, like a few years from now, is called saving for a long-term goal.</p>
+            <div class="thought-bubble1" style="margin-top: 20px;">
+                    <p>Remember: Saving is like a superpower that helps you make your wishes and dreams come true!</p>
+            </div>
+
+            <div class="centered-button">
+                <a href="page7.html" class="hero-btn">Next</a>
+                <button id="toggleNav" class="hero-btn">Close Navigation Bar</button>
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="right-aligned">
+                <img src="Images/Saving Money.png" alt="Image description" class="right-aligned">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const toggleNavButton = document.getElementById('toggleNav');
+        const leftNav = document.querySelector('.left-nav');
+
+        toggleNavButton.addEventListener('click', function() {
+            leftNav.classList.toggle('minimized');
+        });
+    </script>
+</body>
+</html>
